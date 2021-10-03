@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  caption {
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+    background-color: indigo;
+  }
+  table {
+    text-align: left;
+    line-height: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #34495e;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  th,
+  td {
+    padding: 10px;
+  }
+  th {
+    text-align: left;
+  }
+
+  th Status {
+    color: o;
+  }
+  .button {
+    color: #aaa;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: -4px;
+  }
+  .edit:hover {
+    color: blue;
+  }
+
+  .delete:hover {
+    color: red;
+  }
+  td.Checked {
+    color: green;
+  }
+  td.Un_Checked {
+    color: red;
+  }
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+  a:hover {
+    color: blue;
+  }
