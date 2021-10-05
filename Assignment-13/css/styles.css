@@ -1,0 +1,62 @@
+* {
+  font-size: 1.05em;
+  margin: 0;
+}
+
+#mainHeading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#mainTable {
+  margin: auto;
+}
+
+#mainHeading {
+  font-size: 35px;
+  text-align: center;
+  color: #83e9ca;
+  background-color: #577590;
+}
+
+#planName {
+  font-size: 50px;
+  color: #60219b;
+  background-color: #b178e7;
+}
+
+#planCost {
+  font-size: 30px;
+  color: #f9c74f;
+}
+
+#tableBody td {
+  font-weight: 600;
+}
+
+#tableBody tr:nth-child(odd) {
+  color: #f3722c;
+  background-color: #f9c74f;
+}
+
+#tableBody tr:nth-child(even) {
+  color: #f9c74f;
+  background-color: #f3722c;
+}
+
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */
